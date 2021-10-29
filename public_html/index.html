@@ -14,6 +14,14 @@
 
     <!-- Latest compiled JavaScript -->
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <style>
+        a:link {
+            text-decoration: none;
+        }
+        a{
+            color: black;
+        }
+    </style>
 </head>
 <body>
 <div class="container">
@@ -23,27 +31,21 @@
         <nav class="navbar navbar-inverse">
             <div class="container-fluid">
                 <div class="navbar-header">
-                    <a class="navbar-brand" href="#">InternetHistory</a>
+                    <img class="navbar-brand" src="images/logo.svg" alt="logo image">
                 </div>
                 <ul class="nav navbar-nav">
-                    <li class="active"><a href="index.html">Home</a></li>
+                    <li class="active"><a href="index.html"><i class="fa fa-fw fa-home"></i>Home</a></li>
                     <li class="dropdown">
-                        <a class="dropdown-toggle" data-toggle="dropdown" href="#">Topics
+                        <a class="dropdown-toggle" data-toggle="dropdown" href="#"><i class="fa fa-fw fa-wrench"></i>Topics
                             <span class="caret"></span></a>
                         <ul class="dropdown-menu">
                             <li><a href="internethistory.html">The Internet</a></li>
-                            <li><a href="#">WebServer</a></li>
-                            <li><a href="#">IP Address and DNS</a></li>
-                            <li><a href="#">Add</a></li>
-                            <li><a href="#">Add</a></li>
-                            <li><a href="#">Add</a></li>
-                            <li><a href="#">Add</a></li>
-                            <li><a href="#">Add</a></li>
-                            <li><a href="#">Add</a></li>
+                            <li><a href="webserver.html">Web Server</a></li>
+                            <li><a href="ipanddns.html">IP Address and DNS</a></li>
                         </ul>
                     </li>
-                    <li><a href="#">About</a></li>
-                    <li><a href="#">Contact Us</a></li>
+                    <li><a href="about.html"><i class="fa fa-fw fa-user"></i>About</a></li>
+                    <li><a href="contactus.html"><i class="fa fa-fw fa-envelope"></i>Contact Us</a></li>
                 </ul>
             </div>
         </nav>
@@ -65,6 +67,66 @@
         </h4>
 
     </div>
+
+    <!-- Contents Start-->
+    <div class="row">
+        <div class="col-sm-4">
+            <a href="internethistory.html" class="">
+            <h3>The Internet</h3>
+            <p>The Internet (or internet) is the global system of interconnected computer networks
+                that uses the Internet protocol suite (TC...</p></a>
+        </div>
+        <div class="col-sm-4">
+            <a href="webserver.html" class="">
+                <h3>Web Server</h3>
+                <p>A web server is computer software and underlying hardware that accepts requests via HTTP,
+                    the network protocol created to distribute web pages</p></a>
+        </div>
+        <div class="col-sm-4">
+            <a href="ipanddns.html" class=""><h3>IP Address and DNS</h3>
+            <p>An IP address is a string of numbers assigned to an internet-connected device, much like an address on a house.Essentially, IP addresses are how computers on the internet recognize one another.
+            </p></a>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-sm-4">
+            <h3>Internet Seacrh Part2(Yahoo/Google)</h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit...</p>
+            <p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris</p>
+        </div>
+        <div class="col-sm-4">
+            <h3>Commercial Website(Amazon/ebay)</h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit...</p>
+            <p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris...</p>
+        </div>
+        <div class="col-sm-4">
+            <h3>Dotcom Bubble</h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit...</p>
+            <p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris...</p>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-sm-4">
+            <h3>Browser Wars</h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit...</p>
+            <p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris</p>
+        </div>
+        <div class="col-sm-4">
+            <h3>Packets, Routing and Reliability</h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit...</p>
+            <p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris...</p>
+        </div>
+        <div class="col-sm-4">
+            <h3>Computer Lookout</h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit...</p>
+            <p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris</p>
+        </div>
+    </div>
+</div>
+
+
+
+    <!-- Contents End -->
 
 <!-- Footer -->
 <footer class="text-center text-lg-start bg-light text-muted">
