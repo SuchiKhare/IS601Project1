@@ -35,7 +35,6 @@ body, html {
 }
 h4 {
     text-align: center;
-    padding-top: 300px;
 }
 a {
     text-decoration: none;
@@ -52,3 +51,28 @@ a {
     background-color: #555;
     color: white;
 }
+@media (max-width: 4008px) {
+
+}
+@media (min-width: 313px) {
+    .hero-text {
+        width: 300px;
+        height: 300px;
+        top: 500px;
+        padding-top: 10px;
+        left: 50%;
+        color: white;
+    }
+}
+@media (max-width: 576px) {
+    .hero-text {
+        width: 300px;
+        height: 300px;
+        top: 230px;
+        padding-top: 10px;
+        left: 50%;
+        color: white;
+    }
+}
+
+
