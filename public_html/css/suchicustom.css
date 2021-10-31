@@ -101,3 +101,6 @@ p.myBtn1{
 center{
     align-content: center;
 }
+.left{
+    text-align: start;
+}

@@ -68,9 +68,9 @@
                     <div class="col-sm-4">
                         <h2>IP-Address</h2>
                         <h5>IP(Internet Protocol)-v4</h5>
-                        <div class="fakeimg"><img height="100%" width="100%" src="images/IPV4.png" alt="IPv4 image">
+                        <div class="fakeimg"><img height="200" width="200" src="images/IPV4.png" alt="IPv4 image">
                         </div>
-                        <p align="left">An IP address is a string of numbers assigned to an internet-connected device,
+                        <p class="left">An IP address is a string of numbers assigned to an internet-connected device,
                             much like an
                             address on a house.Essentially,
                             IP addresses are how computers on the internet recognize one another.
@@ -95,7 +95,7 @@
                                 </span>
                             <button class="btn btn-info" onclick="myFunction()" id="myBtn">Read more</button>
                         </p>
-                        <p align="left"></p>
+                        <p class="left"></p>
                         <h3 class="mt-4">Important Protocols</h3>
                         <p>For details please call <i class="fas fa-phone mt-4 fa-2x"> </i> or email <i
                                 class="fas fa-envelope mt-4 fa-2x"></i> using contactus page. Thank you </p>
@@ -107,13 +107,13 @@
                                 <a class="nav-link" href="">HTTP</a>
                             </li>
                         </ul>
-                        <p align="left">
+                        <p class="left">
                             <b>The Transmission Control Protocol (TCP) </b>is one of the main protocols of the Internet
                             protocol suite. It originated in the initial network implementation
                             in which it complemented the Internet Protocol (IP). Therefore, the entire suite is commonly
                             referred to as TCP/IP.
                         </p>
-                        <p align="left">
+                        <p class="left">
                             <b>The Hypertext Transfer Protocol (HTTP)</b> is an application-layer protocol for
                             transmitting hypermedia documents, such as HTMLis the protocol used to transmit all data
                             present on the World Wide Web. This includes text, multimedia and graphics. It is the
@@ -126,10 +126,10 @@
                     <div class="col-sm-8">
                         <h2>DNS</h2>
                         <h5>Domain Name Server / Domain Name System</h5>
-                        <div class="fakeimg"><img height="15%" width="15%" src="images/theinternet-dns.svg"
+                        <div class="fakeimg"><img height="100" width="100" src="images/theinternet-dns.svg"
                                                   alt="DNS image"></div>
                         <p>DNS Basics</p>
-                        <p align="left">All computers on the Internet, from your smart phone or laptop to the servers
+                        <p class="left">All computers on the Internet, from your smart phone or laptop to the servers
                             that serve content for massive retail websites,
                             find and communicate with one another by using numbers. These numbers are known as IP
                             addresses. When you open a web browser
@@ -147,37 +147,37 @@
 
                         <h2 class="mt-5">How DNS works ?</h2>
                         <h5>NameServers- Root, TLD and Authoritative</h5>
-                        <div class="fakeimg"><img width="300px" height="auto" src="images/howdnsworks.png"
+                        <div class="fakeimg"><img width="500" height="350" src="images/howdnsworks.png"
                                                   alt="image of DNS basic working"></div>
                         <p>Client(you), Web Server and DNS Server</p>
-                        <p align="left">Step 1 – Send a Request to Resolve a Domain Name</p>
-                        <p align="left">Step 2 – Search for an IP Locally</p>
-                        <p align="left">Step 3 – Contact ISP and its Recursive DNS Server to Resolve a Domain Name.</p>
-                        <p align="left">Step 4 – Ask Outside DNS Servers to Provide an IP Address</p>
-                        <p>
+                        <p class="left">Step 1 – Send a Request to Resolve a Domain Name</p>
+                        <p class="left">Step 2 – Search for an IP Locally</p>
+                        <p class="left">Step 3 – Contact ISP and its Recursive DNS Server to Resolve a Domain Name.</p>
+                        <p class="left">Step 4 – Ask Outside DNS Servers to Provide an IP Address</p>
+
                         <ul>
-                            <li align="left">Root domain nameservers.
+                            <li class="left">Root domain nameservers.
                                 Root servers themselves do not map IP addresses to domain names. Instead, they hold the
                                 information about all top-level domain (TLD)
                                 nameservers and point to their location. TLD is the rightmost section of a domain name,
                                 for example, .com in suchikhare.com or .org in www.mysite.org.
                                 Root servers are critical since they are the first stop for all DNS lookup requests.
                             </li>
-                            <li align="left">TLD nameservers. These servers contain the data for second-level domains,
+                            <li class="left">TLD nameservers. These servers contain the data for second-level domains,
                                 such as ‘phoenixnap’ in phoenixnap.com.
                                 Previously, the root server pointed to the location of the TLD server. Then, the TLD
                                 server needs to direct the request toward the
                                 server that contains the necessary data for the website we are trying to reach.
                             </li>
-                            <li align="left">Authoritative nameserver. Authoritative servers are the final destination
+                            <li class="left">Authoritative nameserver. Authoritative servers are the final destination
                                 for DNS lookup requests. They provide the website’s IP address
                                 back to the recursive DNS servers. If the site has subdomains, the local DNS server will
                                 keep sending requests to the authoritative server
                                 until it finally resolves the IP address.
                             </li>
                         </ul>
-                        </p>
-                        <p align="left">Step 5 – Receive the IP Address</p>
+
+                        <p class="left">Step 5 – Receive the IP Address</p>
 
                     </div>
                 </div>
@@ -186,9 +186,9 @@
     </div>
     <footer class="text-center text-lg-start bg-light text-muted">
         <!-- Section: Social media -->
-        <section>
-            SuchiKhare &#169
-        </section>
+        <div>
+            SuchiKhare &#169;
+        </div>
         <!-- Left -->
         <div class="me-5 d-none d-lg-block">
             <span>Get connected with us on social networks:</span>
