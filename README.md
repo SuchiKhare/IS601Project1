@@ -3,6 +3,9 @@
 
 aditya.eastus.azurecontainer.io
 
+Aditya : Z-layout index.html , 
+         F-layout Tcpip.html , History.html, Arpanet.html
+
 
 Aditya : Z-layout index.html , 
          F-layout Tcpip.html , History.html, Arpanet.html
