@@ -33,7 +33,7 @@ body, html {
     text-align: center;
     cursor: pointer;
 }
-h4 {
+h5 {
     text-align: center;
 }
 a {
@@ -51,12 +51,10 @@ a {
     background-color: #555;
     color: white;
 }
-@media (max-width: 4008px) {
 
-}
 @media (min-width: 313px) {
     .hero-text {
-        width: 300px;
+        width: 550px;
         height: 300px;
         top: 500px;
         padding-top: 10px;
@@ -66,12 +64,23 @@ a {
 }
 @media (max-width: 576px) {
     .hero-text {
-        width: 300px;
+        width: 550px;
         height: 300px;
         top: 230px;
         padding-top: 10px;
         left: 50%;
         color: white;
+    }
+}
+@media (min-width: 575px) {
+    .hero-text {
+        width: 550px;
+        height: 300px;
+        top: 350px;
+        padding-top: 10px;
+        left: 50%;
+        color: white;
+        position: absolute;
     }
 }
 
