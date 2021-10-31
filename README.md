@@ -3,7 +3,13 @@
 
 aditya.eastus.azurecontainer.io
 
-
+SUCHI KHARE:
+    Z-layout index.html</p>
+    F-layout "The Internet" internethistory.html
+    F-layout "Web Server" webserver.html
+    F-layout "IP Address and DNS" ipanddns.html
+    Generic about.html
+    Generic contactUs.html
 
 Aditya : Z-layout index.html , 
          F-layout Tcpip.html , History.html, Arpanet.html
