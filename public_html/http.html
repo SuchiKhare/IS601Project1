@@ -35,7 +35,7 @@
                             <li><a href="internethistory.html">The Internet</a></li>
                             <li><a href="webserver.html">Web Server</a></li>
                             <li><a href="ipanddns.html">IP Address and DNS</a></li>
-                            <li><a href="http.html"><b>HTTP</b></a></li>
+                            <li><a href="http.html">HTTP</a></li>
                             <li><a href="dotcombubble.html">Dot-com bubble</a></li>
                             <li><a href="browserwars.html"><b>Browser Wars</b></a></li>
 
@@ -71,9 +71,9 @@
                     <div class="col-sm-4">
                         <h2>HTTP</h2>
                         <h3>Hypertext Transfer Protocol</h3>
-                        <div class="fakeimg"><img height="200%" width="100%" src="images/http1.png" alt="http image">
+                        <div class="fakeimg"><img height="100" width="400" src="images/http1.png" alt="http image">
                         </div>
-                        <p align="left">HTTP is a client-server protocol: requests are sent by one entity, the user-agent (or a proxy on behalf of it). Most of the time the user-agent is a Web browser, but it can be anything, for example, a robot that crawls the Web to populate and maintain a search engine index.
+                        <p class="left">HTTP is a client-server protocol: requests are sent by one entity, the user-agent (or a proxy on behalf of it). Most of the time the user-agent is a Web browser, but it can be anything, for example, a robot that crawls the Web to populate and maintain a search engine index.
 
                             Each individual request is sent to a server, which handles it and provides an answer called the response. Between the client and the server there are numerous entities, collectively called proxies, which perform different operations and act as gateways or caches,
                             <span id="dots">...</span><span id="more">
@@ -82,23 +82,23 @@
                                 </span>
                             <button class="btn btn-info" onclick="myFunction()" id="myBtn">Read more</button>
                         </p>
-                        <p align="left"></p>
+                        <p class="left"></p>
 
                         <hr class="d-sm-none">
                     </div>
                     <div class="col-sm-8">
                         <h2>HTTP</h2>
                         <h2>Hypertext Transfer Protocol</h2>
-                        <div class="fakeimg"><img height="200%" width="100%" src="images/http3.png"
+                        <div class="fakeimg"><img height="300" width="600" src="images/http3.png"
                                                   alt="http image"></div>
-                        <p align="left">HTTP is a protocol for fetching resources such as HTML documents. It is the foundation of any data exchange on the Web and it is a client-server protocol, which means requests are initiated by the recipient, usually the Web browser. A complete document is reconstructed from the different sub-documents fetched, for instance, text, layout description, images, videos, scripts, and more.
+                        <p class="left">HTTP is a protocol for fetching resources such as HTML documents. It is the foundation of any data exchange on the Web and it is a client-server protocol, which means requests are initiated by the recipient, usually the Web browser. A complete document is reconstructed from the different sub-documents fetched, for instance, text, layout description, images, videos, scripts, and more.
                             Clients and servers communicate by exchanging individual messages (as opposed to a stream of data). The messages sent by the client, usually a Web browser, are called requests and the messages sent by the server as an answer are called responses.
                             </p>
 
-                        <div class="fakeimg"><img width="60%" height="150%" src="images/http4.png"
+                        <div class="fakeimg"><img width="500" height="400" src="images/http4.png"
                                                   alt="image of DNS basic working"></div>
                         <h3>Client: the user-agent</h3>
-                        <p align="left">The user-agent is any tool that acts on behalf of the user. This role is primarily performed by the Web browser, but it may also be performed by programs used by engineers and Web developers to debug their applications.
+                        <p class="left">The user-agent is any tool that acts on behalf of the user. This role is primarily performed by the Web browser, but it may also be performed by programs used by engineers and Web developers to debug their applications.
 
                             The browser is always the entity initiating the request. It is never the server (though some mechanisms have been added over the years to simulate server-initiated messages).
 
@@ -108,17 +108,17 @@
 
                         <h3>The Web server</h3>
 
-                        <p align="left">On the opposite side of the communication channel is the server, which serves the document as requested by the client. A server appears as only a single machine virtually; but it may actually be a collection of servers sharing the load (load balancing), or a complex piece of software interrogating other computers (like cache, a DB server, or e-commerce servers), totally or partially generating the document on demand.
+                        <p class="left">On the opposite side of the communication channel is the server, which serves the document as requested by the client. A server appears as only a single machine virtually; but it may actually be a collection of servers sharing the load (load balancing), or a complex piece of software interrogating other computers (like cache, a DB server, or e-commerce servers), totally or partially generating the document on demand.
 
                             A server is not necessarily a single machine, but several server software instances can be hosted on the same machine. With HTTP/1.1 and the Host header, they may even share the same IP address.</p>
                    <h3>Proxies</h3>
-                        <p align="left">Between the Web browser and the server, numerous computers and machines relay the HTTP messages. Due to the layered structure of the Web stack, most of these operate at the transport, network or physical levels, becoming transparent at the HTTP layer and potentially having a significant impact on performance. Those operating at the application layers are generally called proxies. These can be transparent, forwarding on the requests they receive without altering them in any way, or non-transparent, in which case they will change the request in some way before passing it along to the server. Proxies may perform numerous functions:
+                        <p class="left">Between the Web browser and the server, numerous computers and machines relay the HTTP messages. Due to the layered structure of the Web stack, most of these operate at the transport, network or physical levels, becoming transparent at the HTTP layer and potentially having a significant impact on performance. Those operating at the application layers are generally called proxies. These can be transparent, forwarding on the requests they receive without altering them in any way, or non-transparent, in which case they will change the request in some way before passing it along to the server. Proxies may perform numerous functions:
 
-                            <h5 align="left"><b>Caching (the cache can be public or private, like the browser cache)</b></h5>
-                        <h5 align="left"><b>Filtering (like an antivirus scan or parental controls)</b></h5>
-                            <h5 align="left"><b>Boad balancing (to allow multiple servers to serve different requests)</b></h5>
-                                <h5 align="left"><b>Authentication (to control access to different resources)</b></h5>
-                                    <h5 align="left"><b>Logging (allowing the storage of historical information)</b></h5></p>
+                            <h5 class="left"><b>Caching (the cache can be public or private, like the browser cache)</b></h5>
+                        <h5 class="left"><b>Filtering (like an antivirus scan or parental controls)</b></h5>
+                            <h5 class="left"><b>Boad balancing (to allow multiple servers to serve different requests)</b></h5>
+                                <h5 class="left"><b>Authentication (to control access to different resources)</b></h5>
+                                    <h5 class="left"><b>Logging (allowing the storage of historical information)</b></h5>
 
                     </div>
                 </div>
@@ -127,9 +127,10 @@
     </div>
     <footer class="text-center text-lg-start bg-light text-muted">
         <!-- Section: Social media -->
-        <section>
-            Yeswanth Sai &#169
-        </section>
+
+
+            Yeswanth Sai &#169;
+        <a href="w3cvalidator/http@wec.html">W3C Validator</a>
         <!-- Left -->
         <div class="me-5 d-none d-lg-block">
             <span>Get connected with us on social networks:</span>
