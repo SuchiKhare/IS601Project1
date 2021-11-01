@@ -1,7 +1,7 @@
 # IS601Project1
 
 
-aditya.eastus.azurecontainer.io
+Aditya-Project.eastus.azurecontainer.io
 
 SUCHI KHARE:
     Z-layout index.html</p>
